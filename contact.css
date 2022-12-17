@@ -215,6 +215,9 @@
     }
 }
 @media (max-width:600px){
+      .contact-heading{
+        width: auto;
+    }
     .contact-heading h2 {
         margin: 40px 0 0 20px;
         
