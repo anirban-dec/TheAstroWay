@@ -138,7 +138,10 @@
     .about p {
         font-size: 1rem;
         margin-bottom: 8vw;
-        width: 90vw;
+        width: auto;
+    }
+     .about img{
+        margin-right: auto;
     }
     
 }
