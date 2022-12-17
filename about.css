@@ -1,0 +1,144 @@
+.story {
+    display: flex;
+}
+
+.about{
+    display: flex;
+    /* flex-direction: column; */
+    background-color: #031e2f;
+    text-align: center;
+    height: 24rem;
+    /* justify-content: center; */
+    align-items: center;
+}
+.about img{
+    width: 20vw;
+    margin-left: 2rem;
+}
+.about h3{
+    font-size: 2rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    color: #ff7010;
+}
+.about p{
+    width: 55%;
+    color: white;
+    font-size: 1.2rem;
+    margin: auto;
+}
+.about-img img {
+    width: 33rem;
+    animation: spin 20s infinite linear;
+}
+
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.about-img{
+    width: 50rem;
+}
+.about-story {
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+
+    
+}
+
+.about-story h3{
+    margin-bottom: 3rem;
+    font-size: 2rem;
+    color: #ff7010;
+}
+.about-story p{
+    font-size: 1.2rem;
+    width: 75%;
+    color: white;
+    
+}
+.more{
+    display: none;
+    
+}
+.btnn{
+    margin-left: 35.25%;
+    width: 4rem;
+    height: 2rem;
+    font-size: 1rem;
+    margin-top: 2rem;
+    cursor: pointer;
+    background-color:#e2b30c;
+    border-radius: 5px;
+}
+
+@media (max-width:1024px){
+    .about{
+        height: 15rem;
+    }
+    .about h3{
+        font-size: 1.2rem;
+    }
+    .about p{
+        font-size: 1rem;
+    }
+    .about-img img {
+        width: 22rem;
+        animation: spin 20s infinite linear;
+        margin-top: 25%;
+    }
+    .about-story{
+        margin-bottom: 5rem;
+    }
+    .about-story h3 {
+        font-size: 1.2rem;
+        margin-bottom: 1rem;
+    }
+    .about-story p{
+        font-size: 1rem;
+       
+    }
+
+}
+
+@media (max-width:600px) {
+    .story{
+        flex-direction: column;
+        align-items: center;
+    }
+    .about-img{
+        width: auto;
+    }
+    .about-img img{
+        margin-top: 0;
+        width: 70vw;
+    }
+    .about-story{
+        margin-top: 0;
+        text-align: center;
+    }
+    .about-story p{
+        width: 80vw;
+    }
+    .btnn{
+        margin: 0;
+        margin-top: 2rem;
+    }
+    .about{
+        height: auto;
+    }
+    .about p {
+        font-size: 1rem;
+        margin-bottom: 8vw;
+        width: 90vw;
+    }
+    
+}

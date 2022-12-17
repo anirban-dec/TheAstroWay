@@ -1,0 +1,164 @@
+.blog-set {
+    display: flex;
+    justify-content: space-around;
+}
+
+.blog {
+    display: flex;
+    flex-direction: column;
+    background-color: #031e2f;
+    text-align: center;
+    height: 24rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.blog h3 {
+    color: #ff7010;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+.blog p {
+    color: white;
+    font-size: 1.2rem;
+}
+
+.submit {
+    margin: 2vw;
+    align-items: center;
+    text-align: center;
+}
+
+.submit button {
+    margin-left: auto;
+    width: 8vw;
+    height: 6vh;
+    font-size: 1.2vw;
+    border-radius: 8px;
+    font-family: 'Libre Baskerville', serif;
+    cursor: pointer;
+    background:#ff7010;
+    color: #031e2f;
+}
+.submit button:hover{
+    transition: 0.3s;
+    color: #ff7010;
+    background:#031e2f;
+}
+
+.blog-1 {
+    display: flex;
+    flex-direction: column;
+    width: 23rem;
+    background-color: #031e2f;
+    margin-top: 3rem;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-right: 11px;
+
+}
+
+.blog-1 img {
+    margin-top: 2rem;
+    width: 20vw;
+    height: 35vh;
+    align-self: center;
+}
+
+.blog-1 h4 {
+    text-align: center;
+    margin-top: 2rem;
+    color: #ff7010;
+}
+
+.details {
+    text-align: center;
+    color: white;
+    width: 22vw;
+    margin: 2vw auto 2vw auto;
+}
+
+.date {
+    z-index: 1;
+    margin-bottom: 10px;
+    margin-top: -30px;
+    text-align: center;
+    padding: 5px 0;
+    color: white;
+    background-color: #ff7010;
+    width: 5rem;
+
+    margin-left: 13rem;
+
+    border-radius: 10px;
+    font-weight: 590;
+}
+
+@media (max-width:1024px) {
+    .blog {
+        height: 11rem;
+    }
+    .submit button {
+        margin-left: auto;
+        width: 14vw;
+        height: 3vh;
+        font-size: 2vw;
+    }
+
+    .blog h3 {
+        font-size: 1.2rem;
+    }
+
+    .blog p {
+        font-size: 1rem;
+    }
+
+    .blog-set {
+        display: inline;
+    }
+
+    .blog-1 {
+        width: auto;
+        border-radius: 0px;
+    }
+
+    .blog-1 img {
+        border-radius: 4px;
+        width: 92vw;
+    }
+
+    .date {
+        margin: auto;
+        margin-top: -34px;
+    }
+
+    .details {
+
+        width: 40rem;
+        margin: auto;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+
+    .footer {
+        height: 50px;
+        margin-top: 0rem;
+    }
+
+    .footer p {
+        font-size: 1rem;
+    }
+
+}
+
+@media (max-width:600px) {
+    .details {
+        width: auto;
+    }
+    .submit button {
+        margin-left: auto;
+        width: 14vw;
+        height: 3vh;
+        font-size: 2vw;}
+}

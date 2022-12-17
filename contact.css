@@ -1,0 +1,255 @@
+.contact-page {
+    height: 10rem;
+    background-color:#031e2f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+.contact-page h3 {
+    text-align: center;
+    font-size: 2rem;
+    color: #ff7010;
+}
+
+
+.contact-heading {
+    width: 50%;
+}
+
+.contact-heading h2 {
+    margin: 40px 0 0 20px;
+    color: #ff7010;
+}
+
+.line {
+    width: 23%;
+    height: 3px;
+    background-color: aliceblue;
+    margin-left: 22px;
+    margin-bottom: 1.3rem;
+
+}
+
+.contact-heading p {
+    margin: 0px 0 40px 20px;
+    color: white;
+
+
+}
+
+.contact {
+    display: flex;
+    z-index: 10;
+}
+
+.contacts {
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+}
+
+.contact-border {
+    border-radius: 39px;
+    background: orange;
+    height: 42px;
+    width: 45px;
+    text-align: center;
+}
+
+.call {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 23px;
+
+}
+
+.call i {
+    font-size: 2rem;
+    color: white;
+    margin: 5px;
+}
+
+.call-inside {
+    width: 8rem;
+    text-align: center;
+}
+
+.call-inside p {
+    margin-bottom: 10px;
+}
+
+
+.mail {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 23px;
+
+}
+
+.mail i {
+    font-size: 1.5rem;
+    color: white;
+    margin: 5px;
+}
+
+.mail-inside {
+    width: 8rem;
+    text-align: center;
+}
+
+.mail-inside p {
+    margin-bottom: 10px;
+}
+
+
+.request-send {
+    display: flex;
+    margin: auto;
+    background-color: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.request-border {
+    width: 24rem;
+    height: 28rem;
+}
+
+.request-send form {
+    display: flex;
+    flex-direction: column;
+    padding: 2vw 2vw;
+    max-width: 600px;
+    border-radius: 10px;
+}
+
+.request-send h3 {
+    font-size: 1.4rem;
+    color: #ff7010;
+    margin-bottom: 2rem;
+}
+
+.request-send button {
+    font-family: 'Libre Baskerville', serif;
+    background-color: #ff7010;
+    height: 2rem;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    width: 4rem;
+    margin: auto;
+    margin-top: 1rem;
+    font-weight: 700;
+}
+
+.request-send input {
+    height: 2rem;
+}
+
+.email {
+    margin: 2rem 0;
+}
+
+@media (max-width:1024px){
+    .contact{
+        flex-direction: column;
+    }
+    .contact-page h3 {
+        text-align: center;
+        font-size: 1.4rem;
+        color: #ff7010;
+    }
+    .contact-page {
+        height: 10rem;
+        background-size: 18rem;
+        background-position-x: 50%;
+        background-position-y: 50%;
+    }
+    .line {
+        width: 23%;
+        height: 3px;
+        background-color: aliceblue;
+        margin-left: 131px;
+        margin-bottom: 1.3rem;
+    }
+    .contact-heading h2 {
+        text-align: center;
+    }
+    .contact-heading p {
+       width: auto;
+    }
+    .contact-heading {
+        width: 50%;
+        align-self: center;
+    }
+    .contacts {
+         display: block;
+        
+    }
+    .contact-details{
+        margin: 5%;
+    }
+    .contact-heading {
+        border: 2px solid orange;
+        background-color: #031e2f;
+        margin: 2rem;
+        border-radius: 5px;
+    }
+    .call{
+        margin-left: 150%;
+    }
+    .mail{
+        margin-left: 150%;
+    }
+    .call-inside {
+        
+        text-align: inherit;
+    }
+    .mail-inside{
+        text-align: inherit;
+    }
+}
+@media (max-width:600px){
+    .contact-heading h2 {
+        margin: 40px 0 0 20px;
+        
+        font-size: 1.2rem;
+    }
+   
+    .line{
+        margin-left: 44px;
+    }
+    .contact-heading p{
+        width: auto;
+    }
+    .request-border {
+        width: 19rem;
+        height: 28rem;
+    }
+
+    .call{
+        display: flex;
+        margin-left: 0;
+    }
+    .contacts{
+        width: auto;
+    }
+    .call-inside{
+        font-size: 12px;
+        width: auto;
+    }
+    .mail{
+        margin-left: 0;
+    }
+    .mail-inside{
+        font-size: 12px;
+        width: auto;
+        text-align: center;
+    }
+
+}

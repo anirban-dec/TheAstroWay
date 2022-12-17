@@ -1,0 +1,477 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #07273c;
+}
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Philosopher&display=swap');
+
+/* font-family: 'Libre Baskerville', serif;
+font-family: 'Philosopher', sans-serif; */
+
+h1 {
+    font-family: 'Libre Baskerville', serif
+}
+
+h2 {
+    font-family: 'Libre Baskerville', serif
+}
+
+h3 {
+    font-family: 'Libre Baskerville', serif
+}
+
+h4 {
+    font-family: 'Libre Baskerville', serif
+}
+
+p {
+    font-family: 'Philosopher', sans-serif;
+}
+
+.btn {
+    margin-left: 45%;
+    width: 4rem;
+    height: 2rem;
+    font-size: 1rem;
+    cursor: pointer;
+    background-color: #e2b30c;
+    border-radius: 5px;
+    display: none;
+}
+
+
+
+
+
+
+.navbar {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.navbar2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #07273c;
+    height: 6rem;
+
+}
+
+.navbar2 img {
+    width: 8rem;
+}
+
+.navbar ul li {
+    list-style: none;
+
+
+
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    font-size: 14px;
+    color: white;
+    font-weight: 700;
+    font-family: 'Libre Baskerville', serif;
+}
+
+.active {
+    border-bottom: 4px solid #ff7010;
+}
+
+.navbar ul li a:hover {
+    transition: 0.2s;
+    border-bottom: 4px solid #ff7010;
+}
+
+.mobile-nav {
+    display: none;
+}
+
+.home {
+    background: url("https://kamleshyadav.com/html/astrology/version-2/assets/images/bg1.jpg");
+}
+
+.home2 {
+    height: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+
+.home-info h3 {
+    /* font-family: 'Libre Baskerville', serif; */
+    font-size: 2rem;
+    margin-top: 12rem;
+    color: #ff7010;
+}
+
+.home-info p {
+    font-size: 1.3rem;
+    width: 40vw;
+    color: white;
+    /* font-family: 'Philosopher', sans-serif; */
+
+
+}
+
+.home-img img {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    width: 26rem;
+    animation: rotate 16s infinite linear;
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.service-about {
+    margin-top: 5rem;
+    text-align: center;
+    margin-bottom: 5rem;
+
+}
+
+.details1 {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+#morepart{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.service-about h3 {
+    color: #ff7010;
+    font-size: 2rem;
+}
+
+.service-about p {
+    width: 46rem;
+    margin: auto;
+    margin-top: 1rem;
+    color: white;
+    font-size: 1.2rem;
+}
+
+.box {
+    width: 20%;
+    height: auto;
+    background-color: #053352;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+}
+
+.border {
+    background: #ff7010;
+    width: auto;
+    margin: auto;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 200px;
+}
+
+.border i {
+    margin: 9px;
+    font-size: 1.5rem;
+    color: white;
+}
+
+.box h4 {
+    margin-bottom: 2rem;
+    font-size: 1.4rem;
+    color: #ff7010;
+}
+
+.box p {
+    width: 15vw;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 1rem;
+    color: white;
+}
+
+
+
+.reviews h3 {
+    margin-top: 7rem;
+    text-align: center;
+    font-size: 2rem;
+    color: #ff7010;
+
+}
+
+.reviews p {
+    text-align: center;
+    margin-top: 1.5rem;
+    font-size: 1.4rem;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+.review-box {
+    width: 50%;
+    height: 40vh;
+    background-color: #053352;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2rem;
+}
+
+.customer {
+    /* display: flex; */
+    width: 37%;
+}
+
+.customer-name {
+    display: flex;
+    justify-content: space-around;
+}
+
+.customer-name p {
+    background-color: #ff7010;
+    width: 9%;
+    border-radius: 124px;
+    height: 40px;
+    text-align: center;
+    cursor: pointer;
+
+}
+
+.customer-name p i {
+    font-size: 2rem;
+
+
+}
+
+
+
+
+.reviews-detials {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 3rem;
+}
+
+.review-border {
+
+    width: 10rem;
+    height: 3rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+    border-radius: 1rem;
+    text-align: center;
+}
+
+.review-border i {
+    font-size: 2rem;
+    color: #ff7010;
+    font-weight: 700;
+    font-family: 'Philosopher', sans-serif;
+}
+
+
+
+.reviews .review-box p {
+    font-size: 1rem;
+    width: 60%;
+    text-align: center;
+    margin: auto;
+    color: white;
+    font-weight: 600;
+    margin-top: 1px;
+
+}
+
+.footer {
+    margin-top: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #053352;
+    height: 70px;
+
+}
+
+.footer p {
+    font-size: 1.3rem;
+    color: white;
+}
+
+
+@media (max-width:1024px) {
+    .home-info h3 {
+        font-size: 1.2rem;
+        text-align: center;
+        margin: 5rem 0 2rem 0;
+    }
+
+    .home-info p {
+        font-size: 1rem;
+        text-align: center;
+    }
+
+    .home-img {
+        width: 26rem;
+        height: 26rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .home-img img {
+        width: 18rem;
+    }
+
+    .box {
+        width: auto;
+        height: auto;
+        background-color: #053352;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        border-radius: 10px;
+        margin: 0 10px;
+    }
+
+    .box h4 {
+        font-size: 1rem;
+    }
+
+    .box p {
+        width: auto;
+        font-size: 0.9rem;
+    }
+
+    .service-about h3 {
+        font-size: 1.2rem;
+    }
+
+    .service-about p {
+        width: 27rem;
+        font-size: 1rem;
+    }
+
+    .service-about {
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+    }
+
+    .border h4 {
+        font-size: 10px;
+    }
+
+    .reviews h3 {
+        margin-top: 3rem;
+        font-size: 1.2rem;
+    }
+
+    .reviews p {
+        font-size: 1rem;
+    }
+
+    .review-box {
+
+        height: auto;
+
+        margin-bottom: 0rem;
+    }
+
+    .footer {
+        height: 53px;
+    }
+
+    .footer p {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width:600px) {
+    .navbar2 {
+        display: none;
+    }
+
+    .mobile-nav {
+        display: flex;
+        justify-content: space-around;
+        color: white;
+        background-color: #053352;
+    }
+    .details1{
+        flex-direction: column;
+        align-items: center;
+    }
+    .box{
+        width: 23rem;
+        margin-bottom: 2rem;
+    }
+
+    #morepart{
+        display: none;
+    }
+    .btn{
+        display: inline;
+    }
+    .home2{
+        flex-direction: column;
+        align-items: center;
+    }
+    .home-info p{
+        width: 80vw;
+        
+    }
+    .home-img{
+        height: auto;
+    }
+    .service-about p{
+        width: 80vw;
+        font-size: 0.9rem;
+    }
+    .reviews-detials{
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .customer{
+        width: 100vw;
+        margin-bottom: 2rem;
+    }
+    .review-box{
+        height: 15rem;
+        width: 100%;
+    }
+}
